@@ -40,7 +40,7 @@ class SignInScreen extends StatelessWidget {
                   SizedBox(height: screenHeight * 0.03),
                   GestureDetector(
                     onTap: () {
-                      context.push('/number');
+                      context.push('/number_screen');
                     },
                     child: Container(
                       color: Colors.transparent, // for hit testing
