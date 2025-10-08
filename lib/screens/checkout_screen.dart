@@ -112,7 +112,7 @@ class CheckoutScreen extends StatelessWidget {
           height: 67,
           child: ElevatedButton(
             onPressed: () {
-              context.push('/order_accepted');
+              context.push('/order_accepted_screen');
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: const Color(0xFF53B175),
