@@ -130,7 +130,7 @@ class AccountScreen extends StatelessWidget {
       height: 67,
       child: ElevatedButton(
         onPressed: () {
-          context.go('/log_in');
+          context.go('/login_screen');
         },
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color(0xFFF2F3F2),
@@ -237,8 +237,8 @@ class _CustomBottomNavBar extends StatelessWidget {
           _BottomNavItem(
             icon: Icons.store_outlined,
             label: 'Shop',
-            isActive: currentRoute == '/home',
-            onTap: () => context.go('/home'),
+            isActive: currentRoute == '/home_screen',
+            onTap: () => context.go('/home_screen'),
           ),
           _BottomNavItem(
             icon: Icons.search,
@@ -249,20 +249,20 @@ class _CustomBottomNavBar extends StatelessWidget {
           _BottomNavItem(
             icon: Icons.shopping_cart_outlined,
             label: 'Cart',
-            isActive: currentRoute == '/my_cart',
-            onTap: () => context.go('/my_cart'),
+            isActive: currentRoute == '/my_cart_screen',
+            onTap: () => context.go('/my_cart_screen'),
           ),
           _BottomNavItem(
             icon: Icons.favorite_border,
             label: 'Favourite',
-            isActive: currentRoute == '/favorites',
-            onTap: () => context.go('/favorites'),
+            isActive: currentRoute == '/favorites_screen',
+            onTap: () => context.go('/favorites_screen'),
           ),
           _BottomNavItem(
             icon: Icons.person,
             label: 'Account',
-            isActive: currentRoute == '/account',
-            onTap: () => context.go('/account'),
+            isActive: currentRoute == '/account_screen',
+            onTap: () => context.go('/account_screen'),
           ),
         ],
       ),
