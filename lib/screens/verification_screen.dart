@@ -107,7 +107,7 @@ class VerificationScreen extends StatelessWidget {
                             ),
                             GestureDetector(
                               onTap: () {
-                                context.push('/select_location');
+                                context.push('/select_location_screen');
                               },
                               child: Container(
                                 width: 67,
