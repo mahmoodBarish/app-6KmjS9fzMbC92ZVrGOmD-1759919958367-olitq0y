@@ -108,7 +108,7 @@ class NumberScreen extends StatelessWidget {
             right: 25,
             child: FloatingActionButton(
               onPressed: () {
-                context.push('/verification');
+                context.push('/verification_screen');
               },
               backgroundColor: const Color(0xFF53B175),
               child: const Icon(
